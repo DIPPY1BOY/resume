@@ -2,7 +2,7 @@
 
 body {
     font-family:'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: normal;
     color: #0f141e;
     background:#f1f1f1;
@@ -55,7 +55,6 @@ a:visited {
 
 .info-text {
     margin-left: 40px;
-    font-size: 24px;
 }
 
 @media (max-width:650px) {
@@ -70,7 +69,6 @@ a:visited {
     border-radius: 13px;
     margin-bottom: 15px;
     padding: 15px 20px;
-    font-size: 25px;
 }
 
 .hobby {
@@ -111,6 +109,12 @@ a:visited {
 .table td, tr {
     text-align: center;
     padding-bottom: 10px;
+}
+
+@media (width:650px) {
+    .table {
+        display: inline-block;
+    }
 }
 
 .list {
@@ -170,7 +174,6 @@ a:visited {
     display: block;
     font-size: 14px;
     color: #86898f;
-    font-size: 20px;
 }
 
 .form-group input, 
@@ -184,6 +187,5 @@ a:visited {
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
-    font-size: 20px;
 }
 
